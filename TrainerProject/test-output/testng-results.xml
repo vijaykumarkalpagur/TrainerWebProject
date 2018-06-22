@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="70282" started-at="2018-06-22T03:52:13Z" finished-at="2018-06-22T03:53:24Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="70282" started-at="2018-06-22T03:52:13Z" finished-at="2018-06-22T03:53:24Z">
+      <class name="com.trainer.qa.testcases.LoginTest">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.trainer.qa.testcases.LoginTest@591f989e]" name="OpenBrowser" is-config="true" duration-ms="31577" started-at="2018-06-22T09:22:13Z" finished-at="2018-06-22T09:22:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="TrainerLogin(java.lang.String, java.lang.String)[pri:0, instance:com.trainer.qa.testcases.LoginTest@591f989e]" name="TrainerLogin" duration-ms="32930" started-at="2018-06-22T09:22:45Z" data-provider="UserLogin" finished-at="2018-06-22T09:23:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[saikumaratmakur@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TrainerLogin -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.trainer.qa.testcases.LoginTest@591f989e]" name="teardown" is-config="true" duration-ms="5754" started-at="2018-06-22T09:23:18Z" finished-at="2018-06-22T09:23:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.trainer.qa.testcases.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
